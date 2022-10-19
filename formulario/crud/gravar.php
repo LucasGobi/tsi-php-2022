@@ -10,7 +10,7 @@ $nome = $_POST['nome'];
 $turno = $_POST['turno'];
 $inicio = $_POST['inicio'];
 
-$cosulta = 
+$consulta = 
     $bd->prepare('INSERT INTO alunos 
                     (nome, turno, inicio)
                 VALUES
